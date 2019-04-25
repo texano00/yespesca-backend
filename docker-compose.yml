@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  haproxy:
+    build: haproxy
+    depends_on:
+      - node-server-1
+      - node-server-2
+    ports:
+      - "8080:80"
+
+  node-server-1:
+    build: node-server
+
+  node-server-2:
+    build: node-server
+    # ports:
+    #  - "8080:3000"
