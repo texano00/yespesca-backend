@@ -9,9 +9,9 @@ services:
       - "8080:80"
 
   node-server-1:
-    build: node-server
+    build: nodeserver
 
   node-server-2:
-    build: node-server
+    build: nodeserver
     # ports:
     #  - "8080:3000"
