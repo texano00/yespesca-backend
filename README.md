@@ -1,2 +1,8 @@
-# yespesca-backend
-YesPesca Node Backend
+# Technologies
+
+* Node
+* Fastify
+* Swagger
+* Mongoose
+* Mongodb
+* HAProxy
