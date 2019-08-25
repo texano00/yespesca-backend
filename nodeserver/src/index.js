@@ -39,6 +39,6 @@ const start = async () => {
 start();
 
 mongoose
-  .connect(process.env.DB_CONN, {})
+  .connect(process.env.DB_CONN, { useNewUrlParser: true })
   .then(() => console.log("MongoDB connected…"))
   .catch(err => console.error(err));
