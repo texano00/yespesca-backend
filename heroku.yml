@@ -1,0 +1,5 @@
+build:
+  docker:
+    node-server-1: nodeserver/Dockerfile
+    node-server-2: nodeserver/Dockerfile
+    haproxy: haproxy/Dockerfile
