@@ -4,5 +4,5 @@ COPY . /app
 WORKDIR /app
 RUN rm -rf node_modules && rm package-lock.json
 RUN npm i
-EXPOSE 3000
+EXPOSE 80
 CMD npm run start
