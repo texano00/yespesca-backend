@@ -1,0 +1,19 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+    "DB_CONN": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "yespesca-backend",
+  "scripts": {
+  },
+  "stack": "container"
+}
