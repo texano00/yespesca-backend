@@ -11,13 +11,16 @@ const routes = [
     method: "GET",
     url: "/api/lakes/:id",
     handler: lakeController.getSingleLake
-  },
+  }
+  /*
+  // ONLY FOR LOCAL USE
+  ,
   {
     method: "POST",
     url: "/api/lakes",
     handler: lakeController.addLake
     // schema: documentation.addLakeSchema
-  }
+  }*/
 ];
 
 module.exports = routes;
